@@ -67,14 +67,4 @@
 <!-- JavaScript
 =================================================== -->
 <script type="text/javascript" async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
-{% if article %}
-    {% if article.scripts %}
-<!-- Pelican Dynamic - for embedding D3 charts
-=================================================== -->
-        {% for script in article.scripts %}
-{{ script }}
-        {% endfor %}
-    {% endif %}
-{% endif %}
 </html>
