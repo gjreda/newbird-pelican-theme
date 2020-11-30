@@ -25,3 +25,11 @@ For a working example of this theme, see pelicanconf.py.
 - `INDEX_PAGE_HEADER` is the message you'd like displayed on your index page, above the site `DESCRIPTION`.
 - `NAV_LINKS` is used for displaying the site's navigation bar. This variable should contain a list of dictionaries with each dictionary containing a `name` and `url` key: `NAV_LINKS = [{'name': 'Blog', 'url': '/blog/', ...}]`.
 - `COPYRIGHT_START_YEAR` for displaying the site's copyright message in the footer
+
+## Screenshots
+
+### Index page
+![Screenshot of index page](screenshot-index.png)
+
+### Article page
+![Screenshot of article page](screenshot-article.png)
